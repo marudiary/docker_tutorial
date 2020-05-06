@@ -1,0 +1,7 @@
+version: '3'
+services:
+  tutorial:
+    build: .
+    volumes: 
+      - ./src/:/home/
+    tty: true
